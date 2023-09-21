@@ -26,7 +26,15 @@ namespace RadekPA
 
         public override string ToString()
         {
-            return $"{FirstName} {LastName}, age: {Age}.";
+            if (Sex == "female") 
+            {
+                return $"Cześć, jestem {FirstName} {LastName} mam: {Age} lat i jestem {Sex} (kobietą).";
+            }
+            else
+            {
+                return $"Cześć, jestem {FirstName} {LastName} mam: {Age} lat i jestem {Sex} (facetem).";
+            }
+            
         }
 
         public void ChangeName(string name)
