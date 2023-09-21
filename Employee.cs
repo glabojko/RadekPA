@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RadekPA
 {
-    public class Employee : Man
+    public class Employee : Human
     {
         
         string Employer { get; set; }

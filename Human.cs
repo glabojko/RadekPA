@@ -7,7 +7,7 @@ using System.Xml.Linq;
 
 namespace RadekPA
 {
-    public class Man
+    public class Human
     {
         string FirstName { get; set; }
         string LastName { get; set; }
@@ -15,7 +15,7 @@ namespace RadekPA
         int Age { get; set; }
         
 
-        public Man(string firstName, string lastName, string sex, int age)
+        public Human(string firstName, string lastName, string sex, int age)
         {
             FirstName = firstName;
             LastName = lastName;

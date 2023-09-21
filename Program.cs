@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Hello, World!");
             // var nowy = new Employee();
-            Man nowychop = new("greg", "labojko", "male", 46);
+            Human nowychop = new("greg", "labojko", "male", 46);
             Console.WriteLine(nowychop.ToString());
             Employee nowyPracownik = new("greg", "labojko", "male", 46, 30, "cap", "manango", 500.3, 3);
             Console.WriteLine(nowyPracownik.ToString());
