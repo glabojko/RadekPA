@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RadekPA
 {
-    internal class Specialist : Employee
+    public class Specialist : Employee
     {
         int SkillLevel { get; set; }
         int MedicalInsurane { get; set; } = 2000;
@@ -17,7 +17,9 @@ namespace RadekPA
         {
 
         }
-
-
+        public override string ToString()
+        {
+            return base.ToString() + $"I mam ubezpieczenie medyczne w wysokości {MedicalInsurane} zł.";
+        }
     }
 }

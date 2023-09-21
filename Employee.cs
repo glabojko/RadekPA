@@ -37,7 +37,7 @@ namespace RadekPA
         public override string ToString()
         {
             if (Salary > 1000) {
-                return base.ToString() + $"Pracuję w: {Employer} i dostaję {Salary} wypłaty." + " Jestem kurewsko bogaty!";
+                return base.ToString() + $"Pracuję w: {Employer} i dostaję {Salary} wypłaty." + " Jestem kurewsko bogaty(a)!";
             }
             return base.ToString() + $"Pracuję w: {Employer} i dostaję {Salary} wypłaty.";
         }

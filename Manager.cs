@@ -24,5 +24,14 @@ namespace RadekPA
         {
             Phone--;
         }
+
+        public override string ToString()
+        {
+            if (Phone > 0) 
+            {
+                return base.ToString() + $"I mam służbowy telefon sztuk {Phone}";
+            }
+            return base.ToString() + $"I chyba zajebali mi służbowy telefon, bo teraz mam sztuk {Phone}";
+        }
     }
 }
