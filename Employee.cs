@@ -47,6 +47,18 @@ namespace RadekPA
             Salary = Salary * 1.1;
         }
 
+        public string PromoteToSpecialist()
+        {
+            if (SkillLevel > 50)
+            {
+                return "Hey! I don't wont to be an ordinary worker anymore. Make me a specialist!";
+            }
+            else
+            {
+                return "Your skill level is not high enough to be specialist";
+            }
+        }
+
 
     }
 }

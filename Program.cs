@@ -21,7 +21,7 @@ Console.WriteLine(Dominika.ToString());
 
 Employee GregEmployee = new("Greg", "Labojko", "male", 46, 150, "The Labojko's Company", "familys head", 6000, 22);
 Employee ElaEmployee = new("Ela", "Labojko", "male", 46, 80, "The Labojko's Company", "housewife", 7000, 22);
-Employee ChrisEmployee = new("Chris", "Labojko", "male", 19, 20, "The Labojko's Company", "delfin", 825.5, 2);
+Employee ChrisEmployee = new("Chris", "Labojko", "male", 19, 20, "The Labojko's Company", "delfin", 850, 2);
 Employee PeterEmployee = new("Peter", "Labojko", "male", 18, 15, "The Labojko's Company", "fizyczny", 545, 1);
 
 Console.WriteLine(GregEmployee.ToString());
@@ -40,6 +40,12 @@ Console.WriteLine(GregManager.ToString());
 GregManager.LosePhone();
 Console.WriteLine(GregManager.ToString());
 
+Console.WriteLine(ElaEmployee.PromoteToSpecialist());
+Console.WriteLine(ChrisEmployee.PromoteToSpecialist());
+
+Console.WriteLine(ChrisEmployee.ToString());
+ChrisEmployee.Rise();
+Console.WriteLine(ChrisEmployee.ToString());
 
 
 
