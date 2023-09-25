@@ -17,9 +17,13 @@ namespace RadekPA
         {
 
         }
+
+        
         public override string ToString()
         {
             return base.ToString() + $"I mam ubezpieczenie medyczne w wysokości {MedicalInsurane} zł.";
         }
+
+
     }
 }

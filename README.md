@@ -48,13 +48,13 @@ v? (jak przekazać firstName 6) Każdy kierownik będzie podawał poziom swojej 
 
 Operacje wymagane na poziomie program.cs w klasie main:
 
-1) stwórz parę ludzi.
-2) stwórz 3 pracowników.
-3) stwórz jednego specjalistę.
-4) stwórz jednego kierownika.
-5) wywołaj metodę ToString u jednego z dwóch ludzi.
-6) wywołaj metodę ToString i jednego z pracowników.
-7) wywołaj metodę ToString u kierownika.
+v 1) stwórz parę ludzi.
+v 2) stwórz 3 pracowników.
+v 3) stwórz jednego specjalistę.
+v 4) stwórz jednego kierownika.
+v 5) wywołaj metodę ToString u jednego z dwóch ludzi.
+v 6) wywołaj metodę ToString i jednego z pracowników.
+v 7) wywołaj metodę ToString u kierownika.
 8) dodaj staż pracy dowolnego pracownika (+7 lat).
 9) wywołaj metodę ToString u tego pracownika
 10) Dodaj specjaliście +50 do skilla

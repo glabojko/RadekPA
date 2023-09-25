@@ -8,7 +8,8 @@ namespace RadekPA
 {
     public class Employee : Human
     {
-        
+        internal object firstName;
+
         string Employer { get; set; }
         string Position { get; set; }
         double Salary { get; set; }

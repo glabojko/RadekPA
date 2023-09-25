@@ -29,6 +29,7 @@ namespace RadekPA
 
         public override string ToString()
         {
+            
             if (Phone > 0) 
             {
                 return base.ToString() + $"I mam służbowy telefon sztuk {Phone}";
@@ -38,7 +39,8 @@ namespace RadekPA
 
         public string LoyaltyAnnouncement()
         {
-            return $"I () am loyal at {Loyalty} points level";
+            var imie = base.firstName;
+            return $"I ({imie}) am loyal at {Loyalty} points level";
         }
     }
 }
