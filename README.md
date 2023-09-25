@@ -55,10 +55,10 @@ v 4) stwórz jednego kierownika.
 v 5) wywołaj metodę ToString u jednego z dwóch ludzi.
 v 6) wywołaj metodę ToString i jednego z pracowników.
 v 7) wywołaj metodę ToString u kierownika.
-8) dodaj staż pracy dowolnego pracownika (+7 lat).
-9) wywołaj metodę ToString u tego pracownika
-10) Dodaj specjaliście +50 do skilla
-11) wywołaj metodę ToString specjalisty.
+v 8) dodaj staż pracy dowolnego pracownika (+7 lat).
+v 9) wywołaj metodę ToString u tego pracownika
+v 10) Dodaj specjaliście +50 do skilla
+v 11) wywołaj metodę ToString specjalisty.
 12) podaj staż pracy wszystkich pracowników w formie (Jestem {imię}. Pracuję tu {staż} lat.
 13. Specjalista gubi kartę multisport.
 14. Wywołaj metodę ToString ze specjalisty.

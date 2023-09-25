@@ -37,10 +37,7 @@ namespace RadekPA
 
         public override string ToString()
         {
-            if (Salary > 1000) {
-                return base.ToString() + $"Pracuję w: {Employer} i dostaję {Salary} wypłaty." + " Jestem kurewsko bogaty(a)!";
-            }
-            return base.ToString() + $"Pracuję w: {Employer} i dostaję {Salary} wypłaty.";
+                return base.ToString() + $"Pracuję w: {Employer} od {YearsEmployed} lat i dostaję {Salary} wypłaty.";
         }
 
         public void Rise()
@@ -62,7 +59,10 @@ namespace RadekPA
                 return "Your skill level is not high enough to be specialist";
             }
         }
-
+         public void AddYearsEmployed()
+        {
+            YearsEmployed = YearsEmployed + 7;
+        }
 
     }
 }
