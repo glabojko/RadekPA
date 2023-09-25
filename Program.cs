@@ -1,4 +1,5 @@
 ﻿using RadekPA;
+using System.Runtime.CompilerServices;
 
 Console.WriteLine("Hello, and welcome to Labojko's family!\n");
 
@@ -9,7 +10,7 @@ Human Adam = new("Adam", "Labojko", "male", 13);
 Human Anna = new("Anna", "Labojko", "female", 9);
 Human Greg = new("Greg", "Labojko", "male", 46);
 Human Ela = new("Ela", "Labojko", "female", 46);
-Human Dominika = new("Domi", "Nowak", "female", 23);
+Human Dominika = new("Dominika", "Nowak", "female", 23);
 
 Console.WriteLine("\n1) Każdy człowiek potrafi podać swoje imię i nazwisko oraz wiek.\n");
 Console.WriteLine(Greg.ToString());
@@ -40,9 +41,9 @@ Console.WriteLine(ElaSpecialist.ToString());
 
 
 Manager GregManager = new("Greg", "Labojko", "male", 46, 150, "The Labojko's Company", "familys head", 6000, 22);
-Console.WriteLine(GregManager.ToString());
-GregManager.LosePhone();
-Console.WriteLine(GregManager.ToString());
+//Console.WriteLine(GregManager.ToString());
+//GregManager.LosePhone();
+//Console.WriteLine(GregManager.ToString());
 Console.WriteLine("\n5) Każdy kierownik będzie podawał poziom swojej lojalności (I am loyal at X points level :) )\n");
 Console.WriteLine(GregManager.LoyaltyAnnouncement());
 

@@ -8,7 +8,8 @@ namespace RadekPA
 {
     public class Manager : Employee
     {
-        
+        private string Name { get; }
+
         double AnnualBonus { get; set; }
         int Laptop { get; set; } = 1;
         int Phone { get; set; } = 1;
@@ -16,10 +17,9 @@ namespace RadekPA
         int Loyalty { get; set; } = 40;
 
 
-        public Manager(string firstName, string lastName, string sex, int age, int skillLevel, string employer, string position, double salary, int yearsEmployed)  : 
-            base(firstName, lastName, sex, age, skillLevel, employer, position, salary, yearsEmployed)
+        public Manager(string firstName, string lastName, string sex, int age, int skillLevel, string employer, string position, double salary, int yearsEmployed) : base(firstName, lastName, sex, age, skillLevel, employer, position, salary, yearsEmployed)
         {
-            
+            Name = firstName;
         }
 
         public void LosePhone()
@@ -36,11 +36,12 @@ namespace RadekPA
             }
             return base.ToString() + $"I chyba zajebali mi służbowy telefon, bo teraz mam sztuk {Phone}";
         }
-
+        
         public string LoyaltyAnnouncement()
         {
-            var imie = base.firstName;
-            return $"I ({imie}) am loyal at {Loyalty} points level";
+
+
+            return $"My name is {Name} I am a Manager and I have {Loyalty} loyalty points";
         }
     }
 }

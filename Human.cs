@@ -9,7 +9,7 @@ namespace RadekPA
 {
     public class Human
     {
-        string FirstName { get; set; }
+        public string FirstName { get; set; }
         string LastName { get; set; }
         string Sex { get; set; }
         int Age { get; set; }
@@ -17,7 +17,7 @@ namespace RadekPA
 
         public Human(string firstName, string lastName, string sex, int age)
         {
-            FirstName = firstName;
+            this.FirstName = firstName;
             LastName = lastName;
             Sex = sex;
             Age = age;
