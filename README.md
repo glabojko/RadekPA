@@ -36,15 +36,15 @@ c) kartę multisport w ilości 1 sztuki.
 
 Scenariusze:
 
-1) Każdy człowiek potrafi podać swoje imię i nazwisko oraz wiek.
-2) Każdy pracownik potrafi się przedstawić tak jak człowiek podając dodatkowo firmę w jakiej pracuje i swoje stanowisko służbowe.
-3) Każdy pracownik otrzymuje podwyżkę wynagrodzenia w wysokości 10% swojej aktualnej pensji oraz +10 do poziomu skill level - po przepracowaniu 2 lat.
-4) Każdy pracownik którego skill level przekroczy 50 będzie się domagał awansu na specjalistę (Hey! I don't wont to be an ordinary worker anymore. Make me a specialist!).
-5) Każdy pracownik potrafi obliczyć kiedy może liczyć na awans na specjalistę i podać to w formie: "Mogę być specjalistą w ciągu X lat."
-5) Każdy kierownik będzie podawał poziom swojej lojalności (I am loyal at X points level :) )
-6) Specjalista, którego skill przekroczy 100 będzie się domagał awansu na kierownika (Hey, I need to be a manager now! Make me one or I am leaving!)
-7) każdy specjalista, który zgubi kartę multisport będzie się domagał jej ponownie (Hey! I lost my multisport card. I want a new one!) do momentu jej otrzymania.
-8) Kierownik może co roku zmieniać lojalność o 1 pkt w górę lub w dół (losowo). Jeśli lojalność kierownika spadnie poniżej 2 pkt - odchodzi z firmy. Od tego momentu wyświetla stały komunikat. I don't care I don't work here anymore!
+v 1) Każdy człowiek potrafi podać swoje imię i nazwisko oraz wiek.
+v 2) Każdy pracownik potrafi się przedstawić tak jak człowiek podając dodatkowo firmę w jakiej pracuje i swoje stanowisko służbowe.
+v 3) Każdy pracownik otrzymuje podwyżkę wynagrodzenia w wysokości 10% swojej aktualnej pensji oraz +10 do poziomu skill level - po przepracowaniu 2 lat.
+v 4) Każdy pracownik którego skill level przekroczy 50 będzie się domagał awansu na specjalistę (Hey! I don't wont to be an ordinary worker anymore. Make me a specialist!).
+? 5) Każdy pracownik potrafi obliczyć kiedy może liczyć na awans na specjalistę i podać to w formie: "Mogę być specjalistą w ciągu X lat."
+v? (jak przekazać firstName 6) Każdy kierownik będzie podawał poziom swojej lojalności (I am loyal at X points level :) )
+7) Specjalista, którego skill przekroczy 100 będzie się domagał awansu na kierownika (Hey, I need to be a manager now! Make me one or I am leaving!)
+8) każdy specjalista, który zgubi kartę multisport będzie się domagał jej ponownie (Hey! I lost my multisport card. I want a new one!) do momentu jej otrzymania.
+9) Kierownik może co roku zmieniać lojalność o 1 pkt w górę lub w dół (losowo). Jeśli lojalność kierownika spadnie poniżej 2 pkt - odchodzi z firmy. Od tego momentu wyświetla stały komunikat. I don't care I don't work here anymore!
 
 Operacje wymagane na poziomie program.cs w klasie main:
 

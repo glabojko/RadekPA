@@ -14,6 +14,7 @@ namespace RadekPA
         double Salary { get; set; }
         int YearsEmployed { get; set; }
         int SkillLevel { get; set; }
+        public static object Name { get; protected set; }
 
         public Employee(string firstName,
                         string lastName,
@@ -44,7 +45,10 @@ namespace RadekPA
 
         public void Rise()
         {
-            Salary = Salary * 1.1;
+            if (YearsEmployed > 2)
+            {
+                Salary = Salary * 1.1;
+            }
         }
 
         public string PromoteToSpecialist()
